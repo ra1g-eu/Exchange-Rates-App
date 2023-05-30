@@ -1,0 +1,20 @@
+{
+  "title": "ER App",
+  "appTitle": "Exchange Rates Application",
+  "description": "Convert currency values from EUR, USD, GBP and CZK currencies.",
+  "currencyConvertFrom": "Convert from:",
+  "currencyConvertTo": "to:",
+  "currencyConvertResult": "Result:",
+  "currencyInsertValue": "Enter amount to convert",
+  "currencyTextFieldLabel": "Amount",
+  "localeEnglish": "English",
+  "localeSlovak": "Slovak",
+  "apiStatusError": "Error",
+  "apiResponseError": "Bad request. Try again.",
+  "refreshStatusError": "Error",
+  "refreshResponseError": "Refresh is available every 3 days. Please try again on this date:",
+  "refreshRatesButton": "Refresh rates",
+  "expansionTileNumberSelect": "Select an amount by clicking here",
+  "lastExchangeRateUpdate": "Last exchange rates update"
+
+}

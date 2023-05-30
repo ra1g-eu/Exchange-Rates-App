@@ -1,5 +1,10 @@
 # exchangeratesapp
 
+Features
+- localization English/Slovak
+- select from 5 currencies to see the exchange rate
+- rates updated daily
+
 ## Project setup
 ```
 npm install

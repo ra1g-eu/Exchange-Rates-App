@@ -1,0 +1,19 @@
+{
+  "title": "ER Aplikácia",
+  "appTitle": "Aplikácia pre výmenný kurz",
+  "description": "Skonvertujte hodnoty mien z Eur, Dolárov, Libier a Českej koruny.",
+  "currencyConvertFrom": "Konvertovať z:",
+  "currencyConvertTo": "na:",
+  "currencyConvertResult": "Výsledok:",
+  "currencyInsertValue": "Suma pre skonvertovanie",
+  "currencyTextFieldLabel": "Suma",
+  "localeEnglish": "Anglicky",
+  "localeSlovak": "Slovensky",
+  "apiStatusError": "Chyba",
+  "apiResponseError": "Zlá požiadavka. Skús znova.",
+  "refreshStatusError": "Chyba",
+  "refreshResponseError": "Obnovenie je dostupné každé 3 dni. Prosím skús to znova v tento dátum:",
+  "refreshRatesButton": "Obnoviť kurz",
+  "expansionTileNumberSelect": "Zadaj číslo kliknutím sem",
+  "lastExchangeRateUpdate": "Posledná aktualizácia kurzov"
+}
