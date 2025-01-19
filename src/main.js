@@ -42,8 +42,8 @@ appV.config.globalProperties.$axios = axios;
 appV.config.globalProperties.$loc = i18n;
 appV.config.globalProperties.$router = router;
 appV.config.globalProperties.$vuetify = vuetify;
-appV.config.globalProperties.$apiUrl = 'https://api.ra1g.eu/';
-//appV.config.globalProperties.$apiUrl = 'http://localhost:3000/';
+//appV.config.globalProperties.$apiUrl = 'https://api.ra1g.eu/';
+appV.config.globalProperties.$apiUrl = 'http://localhost:8000/api/exchange/';
 
 appV.use(VueAxios, axios);
 appV.use(i18n);

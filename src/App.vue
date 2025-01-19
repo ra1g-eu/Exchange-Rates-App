@@ -82,8 +82,8 @@ export default {
     async refreshRates(){
       if((Date.now() - parseInt(localStorage.getItem('LastRefresh_ERA'))) >= 259200000){
         try {
-          await this.$axios.get(this.$apiUrl + "api/exchange/getAllConversionRates/").then(response => {
-            if (response.data.status == 'success') {
+          await this.$axios.get(this.$apiUrl + "getAllConversionRates/").then(response => {
+            if (response.data.success) {
               localStorage.setItem("ExchangeRates_ERA", JSON.stringify(response.data.message));
             }
           });
@@ -114,8 +114,8 @@ export default {
     },
     async refreshAuto(){
       try {
-        await this.$axios.get(this.$apiUrl + "api/exchange/getAllConversionRates/").then(response => {
-          if (response.data.status == 'success') {
+        await this.$axios.get(this.$apiUrl + "getAllConversionRates/").then(response => {
+          if (response.data.success) {
             console.log(response.data.message);
             localStorage.setItem("ExchangeRates_ERA", JSON.stringify(response.data.message));
           }
